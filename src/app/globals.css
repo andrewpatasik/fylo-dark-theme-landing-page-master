@@ -22,3 +22,7 @@ body {
   color: var(--white);
   background: var(--dark-blue-2)
 }
+
+.intro {
+  background: var(--dark-blue-1);  
+}

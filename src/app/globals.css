@@ -19,6 +19,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--white);
   background: var(--dark-blue-2)
 }

@@ -1,4 +1,4 @@
-import { Background } from "@/components";
+import { Background, Button } from "@/components";
 import Image from "next/image";
 import { Raleway } from "next/font/google";
 
@@ -28,6 +28,7 @@ export const HeroSection = () => {
         them wherever you need, share and collaborate with friends family, and
         co-workers.
       </p>
+      <Button>Get Started</Button>
     </section>
   );
 };

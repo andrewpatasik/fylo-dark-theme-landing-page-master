@@ -20,9 +20,20 @@
 
 body {
   color: var(--white);
-  background: var(--dark-blue-2)
+  background: var(--dark-blue-2);
 }
 
 .intro {
-  background: var(--dark-blue-1);  
+  background: var(--dark-blue-1);
+}
+
+.button {
+  background: rgb(41, 210, 198);
+  background: linear-gradient(
+    103deg,
+    rgba(41, 210, 198, 1) 0%,
+    rgba(60, 213, 217, 1) 17%,
+    rgba(51, 158, 204, 1) 60%,
+    rgba(51, 158, 204, 1) 95%
+  );
 }

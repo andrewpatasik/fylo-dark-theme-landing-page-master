@@ -27,6 +27,10 @@ body {
   background: var(--dark-blue-1);
 }
 
+.testimonial-card {
+  background: var(--dark-blue-4);
+}
+
 .button {
   background: rgb(101, 226, 217);
   background: linear-gradient(

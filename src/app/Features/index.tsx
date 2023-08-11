@@ -5,7 +5,7 @@ const raleway = Raleway({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const Features = () => {
   return (
-    <ul className="grid sm:grid-cols-2 text-center px-6 mb-18">
+    <ul className="grid sm:grid-cols-2 text-center px-6 mb-20">
       <li className="flex flex-col justify-center items-center py-14">
         <Image
           src="/images/icon-access-anywhere.svg"

@@ -1,4 +1,3 @@
-import { Background, Button } from "@/components";
 import Image from "next/image";
 import { Raleway } from "next/font/google";
 import Link from "next/link";
@@ -7,7 +6,7 @@ const raleway = Raleway({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const Details = () => {
   return (
-    <section className="relative text-left px-6 mb-18">
+    <section className="relative text-left px-6 mb-20">
       <div className="z-10 pt-3">
         <Image
           src="/images/illustration-stay-productive.png"

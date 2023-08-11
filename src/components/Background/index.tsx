@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Background = ({ imageString }: { imageString: string }) => {
   return (
-    <div className="-z-50 intro w-full h-[22rem] absolute left-0">
+    <div className="-z-50 intro absolute left-0 w-full h-96">
       <Image
         src={imageString}
         alt="background"

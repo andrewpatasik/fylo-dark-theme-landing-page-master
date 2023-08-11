@@ -76,7 +76,7 @@ export const Features = () => {
             Store any type of file
           </h3>
           <p className="tracking-tighter">
-            Whether you're sharing holidays photos or work documents, Fylo has
+            Whether you&lsquo;re sharing holidays photos or work documents, Fylo has
             you covered allowing for all files types to be securely stored and
             shared.
           </p>

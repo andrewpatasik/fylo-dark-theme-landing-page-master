@@ -6,7 +6,7 @@ const raleway = Raleway({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const HeroSection = () => {
   return (
-    <section className="-z-50 intro h-[22rem] relative text-center px-6">
+    <section className="relative text-center px-6 mb-18">
       <Background imageString="/images/bg-curvy-mobile.svg" />
       <div className="z-10 pt-3">
         <Image
@@ -23,7 +23,7 @@ export const HeroSection = () => {
       >
         All your files in one secure location, accessible anywhere.
       </h1>
-      <p>
+      <p className="tracking-tight">
         Fylo stores all your most important files in one secure location. Access
         them wherever you need, share and collaborate with friends family, and
         co-workers.

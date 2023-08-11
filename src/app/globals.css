@@ -28,12 +28,12 @@ body {
 }
 
 .button {
-  background: rgb(41, 210, 198);
+  background: rgb(101, 226, 217);
   background: linear-gradient(
     103deg,
-    rgba(41, 210, 198, 1) 0%,
-    rgba(60, 213, 217, 1) 17%,
-    rgba(51, 158, 204, 1) 60%,
+    rgba(101, 226, 217, 1) 0%,
+    rgba(63, 178, 181, 1) 28%,
+    rgba(51, 158, 204, 1) 81%,
     rgba(51, 158, 204, 1) 95%
   );
 }

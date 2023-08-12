@@ -15,7 +15,7 @@ export const HeroSection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="mx-auto w-full h-auto"
+          className="w-full h-auto"
         />
       </div>
       <h1
@@ -28,7 +28,7 @@ export const HeroSection = () => {
         them wherever you need, share and collaborate with friends family, and
         co-workers.
       </p>
-      <Button>Get Started</Button>
+      <Button className="my-10">Get Started</Button>
     </section>
   );
 };

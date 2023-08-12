@@ -3,6 +3,7 @@ import { HeroSection } from "./HeroSection";
 import { Features } from "./Features";
 import { Details } from "./Details";
 import { Testimonial } from "./Testimonial";
+import { Subscribe } from "./Subscribe";
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <Details />
       <Testimonial />
+      <Subscribe />
     </main>
   )
 }

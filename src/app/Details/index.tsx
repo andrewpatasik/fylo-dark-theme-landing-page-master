@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Raleway } from "next/font/google";
 import Link from "next/link";
+import { Raleway } from "next/font/google";
 
 const raleway = Raleway({ weight: ["400", "700"], subsets: ["latin"] });
 

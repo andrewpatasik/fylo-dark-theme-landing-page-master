@@ -27,6 +27,10 @@ body {
   background: var(--dark-blue-1);
 }
 
+.bg-subscribe {
+  background: var(--dark-blue-1);
+}
+
 .testimonial-card {
   background: var(--dark-blue-4);
 }

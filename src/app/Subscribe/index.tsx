@@ -5,8 +5,8 @@ const raleway = Raleway({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const Subscribe = () => {
   return (
-    <section className="relative flex flex-col h-72 px-6">
-      <div className="bg-subscribe flex flex-col items-center justify-center space-y-8 py-8 px-6 rounded-lg">
+    <section className="relative flex flex-col h-44">
+      <div className="absolute inset-x-0 mx-auto w-11/12 bg-subscribe flex flex-col items-center justify-center space-y-8 py-8 px-6 rounded-lg">
         <div className="flex flex-col justify-center items-center">
           <h3 className={`${raleway.className} text-xl font-bold mb-4`}>Get early access today</h3>
           <p className="text-center tracking-[-0.75px]">

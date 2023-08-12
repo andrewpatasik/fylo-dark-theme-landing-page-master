@@ -10,7 +10,7 @@ export const Navbar = () => {
           alt="logo"
           width={0}
           height={0}
-          className="w-24 h-auto"
+          className="w-20 h-auto"
           priority
         />
       </div>

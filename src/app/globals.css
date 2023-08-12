@@ -31,6 +31,10 @@ body {
   background: var(--dark-blue-1);
 }
 
+.bg-footer {
+  background: var(--dark-blue-3);
+}
+
 .testimonial-card {
   background: var(--dark-blue-4);
 }

@@ -4,6 +4,7 @@ import { Features } from "./Features";
 import { Details } from "./Details";
 import { Testimonial } from "./Testimonial";
 import { Subscribe } from "./Subscribe";
+import { Footer } from "./Footer";
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Details />
       <Testimonial />
       <Subscribe />
+      <Footer />
     </main>
   )
 }

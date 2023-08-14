@@ -1,20 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Raleway } from "next/font/google";
+
+const raleway = Raleway({ weight: ['400', '700'], subsets: ["latin"]})
 
 export const Navbar = () => {
   return (
-    <nav className="intro w-full z-50 flex justify-between p-6">
+    <nav className="intro w-full z-50 flex justify-between p-6 md:p-16">
       <div>
         <Image
           src="/images/logo.svg"
           alt="logo"
           width={0}
           height={0}
-          className="w-20 h-auto"
+          className="w-20 md:w-36 h-auto"
           priority
         />
       </div>
-      <ul className="flex items-center space-x-6 text-xs sm:text-base text-gray-400">
+      <ul className={`${raleway.className} flex items-center space-x-6 text-xs text-gray-400 md:space-x-10 md:text-sm `}>
         <li className="hover:text-white">
           <Link href="#">Features</Link>
         </li>

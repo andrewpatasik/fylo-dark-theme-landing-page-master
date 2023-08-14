@@ -23,6 +23,10 @@ body {
   background: var(--dark-blue-2);
 }
 
+.desktop-container {
+  height: 200vh;
+}
+
 .intro {
   background: var(--dark-blue-1);
 }

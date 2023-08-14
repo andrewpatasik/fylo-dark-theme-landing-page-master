@@ -8,27 +8,29 @@ export const HeroSection = () => {
   return (
     <section className="relative text-center px-6 mb-20">
       <Background imageString="/images/bg-curvy-mobile.svg" />
-      <div className="z-10 pt-3 pt-10">
-        <Image
-          src="/images/illustration-intro.png"
-          alt="illustration-intro"
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="w-full h-auto"
-        />
+      <div className=" md:mx-auto md:w-1/2">
+        <div className="z-10 pt-10">
+          <Image
+            src="/images/illustration-intro.png"
+            alt="illustration-intro"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full h-auto"
+          />
+        </div>
+        <h1
+          className={`${raleway.className} text-2xl font-bold my-8 leading-normal md:text-4xl md:leading-relaxed md:tracking-wide`}
+        >
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p className="tracking-tighter md:text-lg md:tracking-normal md:px-14">
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends
+          family, and co-workers.
+        </p>
+        <Button className="my-10 md:w-2/5">Get Started</Button>
       </div>
-      <h1
-        className={`${raleway.className} text-2xl font-bold my-8 leading-normal`}
-      >
-        All your files in one secure location, accessible anywhere.
-      </h1>
-      <p className="tracking-tight">
-        Fylo stores all your most important files in one secure location. Access
-        them wherever you need, share and collaborate with friends family, and
-        co-workers.
-      </p>
-      <Button className="my-10">Get Started</Button>
     </section>
   );
 };

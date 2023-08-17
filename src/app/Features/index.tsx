@@ -5,7 +5,7 @@ const raleway = Raleway({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const Features = () => {
   return (
-    <ul className="md:w-3/4 md:mx-auto grid grid-cols-2 text-center px-6">
+    <ul className="grid md:grid-cols-2 md:w-3/4 md:mx-auto text-center px-6">
       <li className="flex flex-col items-center justify-center py-14">
         <div className="basis-24">
           <Image
@@ -13,7 +13,7 @@ export const Features = () => {
             alt="icon illustration for feature one access anywhere"
             width={0}
             height={0}
-            className="w-1/5 md:w-20"
+            className="w-20"
           />
         </div>
         <div>
@@ -34,7 +34,7 @@ export const Features = () => {
             alt="icon illustration for feature two security"
             width={0}
             height={0}
-            className="w-1/5 md:w-20"
+            className="w-20"
           />
         </div>
         <div className="basis-full">
@@ -55,7 +55,7 @@ export const Features = () => {
             alt="icon illustration for feature three collaboration"
             width={0}
             height={0}
-            className="w-1/5 md:w-20"
+            className="w-20"
           />
         </div>
         <div>
@@ -76,7 +76,7 @@ export const Features = () => {
             alt="icon illustration for feature four multi-format file storage"
             width={0}
             height={0}
-            className="w-1/5 md:w-20"
+            className="w-20"
           />
         </div>
         <div>

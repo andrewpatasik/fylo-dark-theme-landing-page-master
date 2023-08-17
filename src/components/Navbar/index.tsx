@@ -6,7 +6,7 @@ const raleway = Raleway({ weight: ['400', '700'], subsets: ["latin"]})
 
 export const Navbar = () => {
   return (
-    <nav className="intro w-full z-50 flex justify-between p-6 md:p-16">
+    <nav className="intro w-full z-50 flex justify-between p-6 md:py-20 md:px-16">
       <div>
         <Image
           src="/images/logo.svg"

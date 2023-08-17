@@ -24,7 +24,7 @@ export const HeroSection = () => {
         >
           All your files in one secure location, accessible anywhere.
         </h1>
-        <p className="tracking-tight md:text-lg md:tracking-normal md:px-14">
+        <p className="tracking-tight md:text-lg md:tracking-[0.5px] md:px-16">
           Fylo stores all your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.

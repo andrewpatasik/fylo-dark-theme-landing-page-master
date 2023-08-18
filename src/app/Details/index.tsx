@@ -17,7 +17,7 @@ export const Details = () => {
           className="w-full h-auto"
         />
       </div>
-      <div className="flex md:flex-col md:space-y-4 md:px-16">
+      <div className="flex flex-col md:space-y-4">
         <h3
           className={`${raleway.className} text-xl md:text-4xl font-bold mt-12 mb-4`}
         >

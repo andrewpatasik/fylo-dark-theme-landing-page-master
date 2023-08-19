@@ -11,12 +11,11 @@ export const Footer = () => {
           width={0}
           height={0}
           className="w-40 h-auto mx-4"
-          priority
         />
       </div>
 
-      <section className="flex flex-col md:flex-row space-y-24 md:space-y-0 md:space-x-24">
-        <article className="md:basis-3/5 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-24">
+      <div className="flex flex-col md:flex-row space-y-24 md:space-y-0 md:space-x-24">
+        <div className="md:basis-3/5 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-24">
           <div className="md:basis-3/5 flex">
             <div className="basis-12">
               <Image
@@ -58,9 +57,9 @@ export const Footer = () => {
               <p className="basis-full">example@fylo.com</p>
             </div>
           </div>
-        </article>
+        </div>
 
-        <article className="flex basis-1/5 flex-col md:flex-row space-y-12 md:space-y-0">
+        <div className="flex basis-1/5 flex-col md:flex-row space-y-12 md:space-y-0">
           <ul className="flex basis-1/2 flex-col space-y-4">
             <li>
               <Link href="#">About Us</Link>
@@ -87,9 +86,9 @@ export const Footer = () => {
               <Link href="#">Privacy</Link>
             </li>
           </ul>
-        </article>
+        </div>
 
-        <article className="basis-1/6 h-24">
+        <div className="basis-1/6 h-24">
           <ul className="flex flex-row justify-center space-x-4">
             <li>
               <Link href="#">
@@ -131,8 +130,8 @@ export const Footer = () => {
               </Link>
             </li>
           </ul>
-        </article>
-      </section>
+        </div>
+      </div>
     </footer>
   );
 };

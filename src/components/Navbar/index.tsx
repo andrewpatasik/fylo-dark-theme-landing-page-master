@@ -14,7 +14,6 @@ export const Navbar = () => {
           width={0}
           height={0}
           className="w-20 md:w-36 h-auto"
-          priority
         />
       </div>
       <ul className={`${raleway.className} flex items-center space-x-6 text-xs text-gray-400 md:space-x-10 md:text-sm `}>

@@ -17,9 +17,9 @@ export const Features = () => {
           />
         </div>
         <div>
-          <h3 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
+          <h2 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
             Access your file, anywhere
-          </h3>
+          </h2>
           <p className="tracking-tighter md:tracking-thight md:px-20">
             The ability to use smartphone, tablet, or computer to access your
             account means your files follow you everywhere.
@@ -38,9 +38,9 @@ export const Features = () => {
           />
         </div>
         <div className="basis-full">
-          <h3 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
+          <h2 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
             Security you can trust
-          </h3>
+          </h2>
           <p className="tracking-tighter md:tracking-thight md:px-20">
             2-factor authentication and user-controlled encryption are just a
             couple of the security features we allow to help secure your files.
@@ -59,9 +59,9 @@ export const Features = () => {
           />
         </div>
         <div>
-          <h3 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
+          <h2 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
             Real-time collaboration
-          </h3>
+          </h2>
           <p className="tracking-tighter md:tracking-thight md:px-20">
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required.
@@ -80,9 +80,9 @@ export const Features = () => {
           />
         </div>
         <div>
-          <h3 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
+          <h2 className={`${raleway.className} text-xl font-bold mt-8 mb-3 md:mt-0`}>
             Store any type of file
-          </h3>
+          </h2>
           <p className="tracking-tighter md:tracking-thight md:px-20">
             Whether you&lsquo;re sharing holidays photos or work documents, Fylo
             has you covered allowing for all files types to be securely stored

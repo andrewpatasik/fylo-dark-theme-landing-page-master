@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="relative -z-50 bg-footer h-auto pt-44 px-6">
+    <footer className="relative -z-50 bg-footer h-auto pt-44 pb-20 px-6 md:px-24">
       <div className="my-16">
         <Image
           src="/images/logo.svg"
@@ -15,16 +15,16 @@ export const Footer = () => {
         />
       </div>
 
-      <section className="flex flex-col space-y-24">
-        <article className="flex flex-col space-y-4">
-          <div className="flex space-x-7">
-            <div className="w-auto pt-1">
+      <section className="flex flex-col md:flex-row md:space-x-24">
+        <article className="md:basis-3/5 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-24">
+          <div className="md:basis-3/5 flex">
+            <div className="basis-12">
               <Image
                 src="/images/icon-location.svg"
                 alt="icon location"
                 width={0}
                 height={0}
-                className="w-4 h-5"
+                className="w-4 h-auto"
               />
             </div>
             <p className="basis-full">
@@ -32,34 +32,36 @@ export const Footer = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
-          <div className="flex space-x-7">
-            <div className="w-auto">
-              <Image
-                src="/images/icon-phone.svg"
-                alt="icon phone"
-                width={0}
-                height={0}
-                className="w-5 h-4"
-              />
+          <div className="flex flex-col space-y-4">
+            <div className="flex">
+              <div className="basis-12">
+                <Image
+                  src="/images/icon-phone.svg"
+                  alt="icon phone"
+                  width={0}
+                  height={0}
+                  className="w-5 h-auto"
+                />
+              </div>
+              <p className="basis-full">+1-543-123-4567</p>
             </div>
-            <p className="basis-full">+1-543-123-4567</p>
-          </div>
-          <div className="flex space-x-7 items-baseline">
-            <div className="w-auto">
-              <Image
-                src="/images/icon-email.svg"
-                alt="icon phone"
-                width={0}
-                height={0}
-                className="w-7 h-5"
-              />
+            <div className="flex md:items-center">
+              <div className="basis-12">
+                <Image
+                  src="/images/icon-email.svg"
+                  alt="icon phone"
+                  width={0}
+                  height={0}
+                  className="w-6 h-auto"
+                />
+              </div>
+              <p className="basis-full">example@fylo.com</p>
             </div>
-            <p className="basis-full">example@fylo.com</p>
           </div>
         </article>
 
-        <article className="flex flex-col space-y-12">
-          <ul className="flex flex-col space-y-4">
+        <article className="flex basis-1/5 flex-col md:flex-row space-y-12 md:space-y-0">
+          <ul className="flex basis-1/2 flex-col space-y-4">
             <li>
               <Link href="#">About Us</Link>
             </li>
@@ -74,7 +76,7 @@ export const Footer = () => {
             </li>
           </ul>
 
-          <ul className="flex flex-col space-y-4">
+          <ul className="flex basis-1/2 flex-col space-y-4">
             <li>
               <Link href="#">Contact Us</Link>
             </li>
@@ -87,7 +89,7 @@ export const Footer = () => {
           </ul>
         </article>
 
-        <article className="h-24">
+        <article className="basis-1/6 h-24">
           <ul className="flex flex-row justify-center space-x-4">
             <li>
               <Link href="#">

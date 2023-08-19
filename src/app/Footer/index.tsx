@@ -15,7 +15,7 @@ export const Footer = () => {
         />
       </div>
 
-      <section className="flex flex-col md:flex-row md:space-x-24">
+      <section className="flex flex-col md:flex-row space-y-24 md:space-y-0 md:space-x-24">
         <article className="md:basis-3/5 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-24">
           <div className="md:basis-3/5 flex">
             <div className="basis-12">
